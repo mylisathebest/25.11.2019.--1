@@ -8,18 +8,17 @@ int x = 0, y = 0;
 
 int main()
 {
-	int a = time(NULL);
 	for (x = 1; x < 78487894 / 2020; x++)
 	{
 		for (y = 1; y < 78487894 / 2020; y++)
 		{
 			if ((2020 * x) + (2021 * y) == 78487894)
 			{
-				cout << "x: " << x << " " << "y: " <<y;
+				cout << "x: " << x << " " << "y: " << y;
 				cout << endl;
 				break;
 			}
-		}; 
+		};
 	};
 }
 
